@@ -1,0 +1,202 @@
+*{
+margin: 0;
+padding: 0; 
+}
+body {
+font: 19px Arial; 
+margin: 0;
+}
+header{
+background-size: 100%;
+background-image:url(images/1.jpg) ;
+display:flex;
+padding:20px;
+font:15px;
+}
+header img{
+padding:10px;
+}
+* html ul li a {
+height: 1%;
+}
+div a:before {
+content: "\20aa ";
+}
+ul {
+border-bottom: 1px solid #000;
+list-style: none;
+margin: 0;
+padding: 0;
+width: 150px;
+}
+ul li {
+position: relative;
+}
+ul li a {
+display: block;
+border: 1px solid #000;
+border-bottom: 1px;
+padding: 5px;
+text-decoration: none;
+}
+li ul {
+display: none;
+left: 3px;
+position: absolute;
+top: 0;
+}
+li:hover ul {
+float:none;
+display:list-item;
+position: relative;
+}
+.sidebar{
+float: right; 
+border: 2px solid white; 
+width: 13%; 
+padding: 5px; 
+margin: 30px 10px 20px 5px; 
+}
+.rightming{
+float: left; 
+margin: 10px 10px 10px 10px;
+height: 200px;
+width:auto;
+}
+.rightming:focus {
+position: absolute;
+margin-left:200px;
+width: 500px;
+height: auto;
+}
+.rightmin{
+float: right; 
+margin: 10px 0 10px 10px;
+height: 400px;
+width:auto;
+}
+.rightmin:focus {
+position: absolute;
+margin-left:300px;
+width: 500px;
+height: auto;
+}
+table{
+border-collapse: collapse;
+border:2px solid black;
+width:100%;
+}
+td, th{
+padding: 7px;
+border: 1px solid #000;
+}
+h1 {
+display: table-cell;
+
+margin: 0;
+}
+main{
+padding-top:10px;
+padding-left:100px;
+padding-right:50px; 
+margin: 20px 17% 20px 6%;  
+}
+footer {
+color:white;
+background-size: 100%;
+background-image:url(images/1.jpg) ;
+padding: 5px; 
+position: flex ;
+}
+footer a{
+margin-left:300px;
+color:black;
+}
+.center{
+text-align: center;
+}
+.fastt{
+right: 10px;
+bottom:50px;
+position:fixed;
+}
+.popup {
+width: 70px; 
+height: 52px;
+cursor:pointer;
+}
+.popup:focus {
+position: absolute;
+width: 300px;
+height: auto;
+}
+.active{
+font-weight: bold;
+}
+a {
+color:black;
+text-decoration: none;
+} 
+a:hover { 
+text-decoration: underline; 
+}
+.forhob{
+color:white;
+margin-top:20px;
+margin-left: 10%;
+}
+
+
+
+
+.input{
+font-size: 20px;
+padding:15px;
+display:block;
+border:none;
+border-bottom:1px solid #ccc;
+width:90%
+}
+.inputs{
+font-size:18px;
+text-align:center;
+cursor:pointer;
+padding:8px 16px;
+vertical-align:middle;
+overflow:hidden;
+}
+
+@keyframes go-left-right { 
+from {
+left: 38%;
+}
+to {
+left: calc(55%); 
+}
+}
+
+@keyframes go-left-right1 { 
+from {
+left: 10%;
+}
+to {
+left: calc(45%); 
+}
+}
+
+
+.progress {
+animation: go-left-right 2s infinite alternate;
+
+position: relative;
+border: 1px solid orange;
+width: 50px;
+height: 3px;
+background: black;
+}
+
+.progress1 {
+animation: go-left-right1 7s infinite alternate;
+
+position: relative;
+}
